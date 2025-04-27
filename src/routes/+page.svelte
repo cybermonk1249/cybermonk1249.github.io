@@ -106,7 +106,7 @@
                 <p> Working on a little website showing some music and coding stuff mostly.
                     rn u're listening to some cool ambient / liminal techno tracks.
                     Stuff to add: navbar, blog?, music promo, SHADERS, finish implementing music player
-                    with a playlist, wanna share cool music projects too.
+                    with a playlist, wanna share cool music projects too. Made with svelte
                 </p>
                 <section id="btn-cont">
                     <button onclick={skipStart} ondblclick={prevTrack}>

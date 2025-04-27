@@ -9,5 +9,6 @@ export default defineConfig({
 			$fonts: resolve('./static/fonts'),
 		}
 	},
+	base: process.env.NODE_ENV === 'production' ? '/cybermonk1249.github.io/' : '/',
 	plugins: [sveltekit()]
 });
